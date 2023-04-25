@@ -1,0 +1,6 @@
+.footer__logo {
+  background-image: url('../../../images/footer__logo.png');
+  background-repeat: no-repeat;
+  width: 114px;
+  min-height: 24px;
+}

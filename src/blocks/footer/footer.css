@@ -1,0 +1,11 @@
+.footer {
+  background-color: #fff;
+  width: 100%;
+  min-height: 30px;
+  padding-left: 139px;
+  padding-bottom: 30px;
+  position: absolute;
+  bottom: 0;
+  background-color: teal;
+  opacity: .5;
+}
