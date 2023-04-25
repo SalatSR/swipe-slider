@@ -1,0 +1,9 @@
+.header__inner {
+  display: flex;
+  height: 50px;
+  align-items: center;
+}
+
+.header__inner li:first-child {
+  border-right: 1px solid #000;
+}
