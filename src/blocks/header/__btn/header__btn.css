@@ -1,10 +1,14 @@
-.header__link_home {
-  display: block;
+.header__btn {
   background-image: url('../../../images/header__link_home.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  border: none;
+  background-color: transparent;
   width: 26px;
   height: 26px;
+}
+
+.header__btn_home {
   margin-right: 22px;
 }
