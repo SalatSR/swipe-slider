@@ -1,0 +1,31 @@
+.slide-2__scroll {
+  overflow-y: auto;
+  direction: rtl;
+}
+
+.slide-2__scroll::-webkit-scrollbar,
+.slide-2__scroll::-webkit-scrollbar-thumb,
+.slide-2__scroll::-webkit-scrollbar-track {
+  width: 20px;
+  border: none;
+  background: transparent;
+}
+
+.slide-2__scroll::-webkit-scrollbar-button,
+.slide-2__scroll::-webkit-scrollbar-track-piece,
+.slide-2__scroll::-webkit-scrollbar-corner,
+.slide-2__scroll::-webkit-resizer {
+  display: none;
+}
+
+.slide-2__scroll::-webkit-scrollbar-thumb {
+  border-radius: 50px;
+  background-color: #cf578d;
+  box-shadow: inset 4px 2px 3px rgba(255, 255, 255, 0.3), inset -4px -2px 3px rgba(0, 0, 0, 0.3);
+}
+
+.slide-2__scroll::-webkit-scrollbar-track {
+  background: linear-gradient(to right, transparent 30%, #000 50%, transparent 70%);
+  background-repeat: repeat-y;
+  background-size: contain;
+}

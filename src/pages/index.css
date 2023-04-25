@@ -1,6 +1,9 @@
 @import url(../vendor/reset.css);
 @import url(../vendor/fonts/fonts.css);
 
+@import url(../blocks/mixins/bold.css);
+@import url(../blocks/mixins/button.css);
+
 @import url(../blocks/page/page.css);
 @import url(../blocks/page/__content/page__content.css);
 
@@ -19,7 +22,16 @@
 @import url(../blocks/slide-1/__btn/slide-1__btn.css);
 
 @import url(../blocks/slide-2/slide-2.css);
+@import url(../blocks/slide-2/__title/slide-2__title.css);
+@import url(../blocks/slide-2/__scroll/slide-2__scroll.css);
+@import url(../blocks/slide-2/__message/slide-2__message.css);
+
 @import url(../blocks/slide-3/slide-3.css);
+@import url(../blocks/slide-3/__title/slide-3__title.css);
+@import url(../blocks/slide-3/__subtitle/slide-3__subtitle.css);
+@import url(../blocks/slide-3/__grid/slide-3__grid.css);
+@import url(../blocks/slide-3/__tip/slide-3__tip.css);
+@import url(../blocks/slide-3/__btn/slide-3__btn.css);
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__logo/footer__logo.css);

@@ -3,7 +3,7 @@ import './index.css';
 function cL(x) {
   console.log(x);
 }
-
+/** НАЧАЛО Основное движение слайдера */
 const headerLinkHome = document.querySelector('.header__btn_home');
 const sliderLine = document.querySelector('.slider__line');
 const sliderBtn = document.querySelector('.slide-1__btn');
@@ -67,3 +67,4 @@ headerLinkHome.addEventListener('click', moveToFirst);
 sliderBtn.addEventListener('click', moveRight);
 document.addEventListener('touchstart', handleTouchStart, false);
 document.addEventListener('touchmove', handleTouchMove, false);
+/** КОНЕЦ Основное движение слайдера */

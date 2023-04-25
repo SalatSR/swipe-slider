@@ -1,0 +1,31 @@
+.slide-3__tip {
+  font-family: 'DIN Pro';
+  font-weight: 400;
+  font-size: 28px;
+  letter-spacing: -1.4px;
+  line-height: 1.07;
+  background-color: #fff;
+  padding: 45px 50px 45px 43px;
+  border-radius: 43px;
+}
+
+.slide-3__tip_1 {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  padding-left: 70px;
+  width: 363px;
+  height: 266px;
+}
+
+.slide-3__tip_2 {
+  width: 268px;
+  height: 150px;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}

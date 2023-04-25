@@ -1,0 +1,13 @@
+.slide-2__message {
+  direction:ltr;
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 40px;
+  font-family: 'Gilroy';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  width: 777px;
+  height: 444px;
+  padding: 30px 40px 0;
+}
