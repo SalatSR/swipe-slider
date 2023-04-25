@@ -1,12 +1,16 @@
 import './index.css';
+import {
+  headerLinkHome,
+  sliderLine,
+  slideBtnNext,
+  slideBtnDetail,
+} from '../utils/Constants.js';
+import Popup from '../components/Popup';
 
 function cL(x) {
   console.log(x);
 }
 /** НАЧАЛО Основное движение слайдера */
-const headerLinkHome = document.querySelector('.header__btn_home');
-const sliderLine = document.querySelector('.slider__line');
-const sliderBtn = document.querySelector('.slide-1__btn');
 let offset = 0;
 let clientTouchFirstX = null;
 let clientTouchFirstY = null;
@@ -62,9 +66,22 @@ function handleTouchMove(event) {
   clientTouchFirstX = null;
   clientTouchMoveX = null;
 }
+/** КОНЕЦ Основное движение слайдера */
+
+/** НАЧАЛО Попап */
+
+// создаём экземпляр popupDetail класса Popup
+const popupDetail = new Popup('.popup_ditails');
+popupDetail.setEventListeners();
+
+function openDetail() {
+  popupDetail.open();
+};
+
+/** КОНЕЦ Попап */
 
 headerLinkHome.addEventListener('click', moveToFirst);
-sliderBtn.addEventListener('click', moveRight);
+slideBtnNext.addEventListener('click', moveRight);
+slideBtnDetail.addEventListener('click', openDetail);
 document.addEventListener('touchstart', handleTouchStart, false);
 document.addEventListener('touchmove', handleTouchMove, false);
-/** КОНЕЦ Основное движение слайдера */

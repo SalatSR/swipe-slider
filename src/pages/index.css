@@ -33,5 +33,14 @@
 @import url(../blocks/slide-3/__tip/slide-3__tip.css);
 @import url(../blocks/slide-3/__btn/slide-3__btn.css);
 
+@import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/__title/popup__title.css);
+@import url(../blocks/popup/__subtitle/popup__subtitle.css);
+@import url(../blocks/popup/_opened/popup_opened.css);
+@import url(../blocks/popup/popup_ditails.css);
+@import url(../blocks/popup/__closer/popup__closer.css);
+@import url(../blocks/popup/__container/popup__container.css);
+@import url(../blocks/popup/__img-bottle/popup__img-bottle.css);
+
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__logo/footer__logo.css);
