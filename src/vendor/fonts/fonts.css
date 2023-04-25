@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'DIN Pro';
+  font-style:  normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./DINPro.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'DIN Pro';
+  font-style:  normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("./DINPro-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  font-style:  normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("./Gilroy-Light.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  font-style:  normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./Gilroy-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  font-style:  normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("./Gilroy-Extrabold.woff") format("woff");
+}
