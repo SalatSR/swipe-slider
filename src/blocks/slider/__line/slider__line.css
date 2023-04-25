@@ -1,0 +1,5 @@
+.slider__line {
+  width: max-content;
+  display: flex;
+  flex-wrap: nowrap;
+}

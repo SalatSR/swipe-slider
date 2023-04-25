@@ -1,0 +1,6 @@
+.slider__slide {
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 1024px;
+  height: 768px;
+}
