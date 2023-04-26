@@ -1,0 +1,25 @@
+.carousel__controls {
+  display: flex;
+}
+
+.carousel__controls ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.carousel__controls ul li {
+  background: #fff;
+  cursor: pointer;
+  width: 12px;
+  height: 12px;
+  border: 2px solid #000;
+  border-radius: 50px;
+  margin: 10px;
+}
+
+.carousel__controls ul li.selected {
+  background: #fc6da9;
+  border-color: #fc6da9;
+}

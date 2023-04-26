@@ -1,4 +1,23 @@
 .slide-2 {
   background-image: url('../../images/slide-bg_2.png');
   padding: 132px 91px 0px 67px;
+  position: relative;
+}
+
+.slide-2:after {
+  content: '';
+  background-color: #fff;
+  border-radius: 40px;
+  direction: ltr;
+  font-family: 'Gilroy';
+  font-size: 20px;
+  font-weight: 400;
+  height: 450px;
+  line-height: 1.5;
+  padding: 30px 40px 0;
+  width: 737px;
+  top: 235px;
+  left: 120px;
+  z-index: 1;
+  position: absolute;
 }

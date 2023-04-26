@@ -25,7 +25,7 @@
 }
 
 .slide-2__scroll::-webkit-scrollbar-track {
-  background: linear-gradient(to right, transparent 30%, #000 50%, transparent 70%);
+  background: linear-gradient(90deg, transparent 40%, #000 50%, transparent 60%);
   background-repeat: repeat-y;
   background-size: contain;
 }

@@ -34,13 +34,22 @@
 @import url(../blocks/slide-3/__btn/slide-3__btn.css);
 
 @import url(../blocks/popup/popup.css);
-@import url(../blocks/popup/__title/popup__title.css);
-@import url(../blocks/popup/__subtitle/popup__subtitle.css);
-@import url(../blocks/popup/_opened/popup_opened.css);
 @import url(../blocks/popup/popup_ditails.css);
+@import url(../blocks/popup/__carousel/popup__carousel.css);
 @import url(../blocks/popup/__closer/popup__closer.css);
 @import url(../blocks/popup/__container/popup__container.css);
 @import url(../blocks/popup/__img-bottle/popup__img-bottle.css);
+@import url(../blocks/popup/__subtitle/popup__subtitle.css);
+@import url(../blocks/popup/__title/popup__title.css);
+@import url(../blocks/popup/_opened/popup_opened.css);
+
+@import url(../blocks/carousel/corousel.css);
+@import url(../blocks/carousel/__btn/carousel__btn.css);
+@import url(../blocks/carousel/__container/carousel__container.css);
+@import url(../blocks/carousel/__controls/carousel__controls.css);
+@import url(../blocks/carousel/__number/carousel__number.css);
+@import url(../blocks/carousel/__paragraph/carousel__paragraph.css);
+@import url(../blocks/carousel/__slide/carousel__slide.css);
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__logo/footer__logo.css);
