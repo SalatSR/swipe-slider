@@ -3,7 +3,5 @@
   height: 100px;
   padding: 12px 40px 0 64px;
   position: absolute;
-  background-color: pink;
-  opacity: .5;
   z-index: 100;
 }

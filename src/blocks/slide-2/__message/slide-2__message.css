@@ -1,12 +1,31 @@
 .slide-2__message {
   direction: ltr;
   font-family: 'Gilroy';
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 400;
   height: 444px;
-  line-height: 1.5;
-  padding: 30px 40px 0;
+  line-height: 1.36;
+  letter-spacing: 1.14px;
+  padding: 30px 40px 40px 32px;
   width: 777px;
   z-index: 2;
   position: relative;
+}
+
+.slide-2__message::after {
+  position: sticky;
+  top: 0px;
+  left: 0px;
+  content: '';
+  border: 1px solid red;
+  /* direction: ltr;
+  font-family: 'Gilroy';
+  font-size: 22px;
+  font-weight: 400;
+  height: 444px;
+  line-height: 1.36;
+  letter-spacing: 1.14px;
+  padding: 30px 40px 40px 32px;
+  width: 777px;
+  z-index: 2; */
 }

@@ -1,2 +1,10 @@
 .slide-1__btn {
+  position: absolute;
+  bottom: 223px;
+  right: 110px;
+  width: 285px;
+}
+
+.slide-1__btn:before {
+  background-image: url('../../../images/btn-img--arrow.png');
 }

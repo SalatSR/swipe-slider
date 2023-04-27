@@ -1,4 +1,5 @@
 .slide-1 {
   background-image: url('../../images/slide-bg_1.png');
-  padding: 166px 91px 0px 67px;
+  padding: 166px 43px 0px 67px;
+  position: relative;
 }

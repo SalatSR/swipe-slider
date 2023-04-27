@@ -1,0 +1,6 @@
+.bubble_3 {
+  background-image: url('../../../images/bubbles/bubble_3.png');
+  top: 500px;
+  left: -20px;
+  animation-duration: 8s;
+}

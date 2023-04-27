@@ -1,6 +1,7 @@
 .slide-2__scroll {
   overflow-y: auto;
   direction: rtl;
+  margin-left: 5px;
 }
 
 .slide-2__scroll::-webkit-scrollbar,
@@ -25,7 +26,7 @@
 }
 
 .slide-2__scroll::-webkit-scrollbar-track {
-  background: linear-gradient(90deg, transparent 40%, #000 50%, transparent 60%);
+  background: linear-gradient(90deg, transparent 35%, #000 35% 65%, transparent 65%);
   background-repeat: repeat-y;
   background-size: contain;
 }

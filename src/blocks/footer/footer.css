@@ -1,12 +1,9 @@
 .footer {
-  background-color: #fff;
   width: 100%;
   min-height: 25px;
   padding-left: 67px;
   padding-bottom: 5px;
   position: absolute;
   bottom: 0;
-  background-color: teal;
-  opacity: .5;
   z-index: 100;
 }

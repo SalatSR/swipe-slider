@@ -1,0 +1,10 @@
+.slide-1__bacteria_8 {
+  animation-name: circle;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  background-image: url('../../../../images/bacterias/slide-1--bacteria-8.png');
+  height: 100px;
+  left: 865px;
+  top: 205px;
+  width: 100px;
+}

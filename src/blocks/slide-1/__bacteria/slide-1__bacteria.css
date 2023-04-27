@@ -1,0 +1,9 @@
+.slide-1__bacteria {
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: auto;
+}

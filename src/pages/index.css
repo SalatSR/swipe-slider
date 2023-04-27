@@ -1,15 +1,18 @@
 @import url(../vendor/reset.css);
 @import url(../vendor/fonts/fonts.css);
 
+@import url(./animation.css);
+
 @import url(../blocks/mixins/bold.css);
-@import url(../blocks/mixins/button.css);
+
+@import url(../blocks/button/button.css);
 
 @import url(../blocks/page/page.css);
 @import url(../blocks/page/__content/page__content.css);
 
 @import url(../blocks/header/header.css);
-@import url(../blocks/header/__inner/header__inner.css);
 @import url(../blocks/header/__btn/header__btn.css);
+@import url(../blocks/header/__inner/header__inner.css);
 @import url(../blocks/header/__title/header__title.css);
 
 @import url(../blocks/slider/slider.css);
@@ -17,6 +20,16 @@
 @import url(../blocks/slider/__slide/slider__slide.css);
 
 @import url(../blocks/slide-1/slide-1.css);
+@import url(../blocks/slide-1/__bacteria/slide-1__bacteria.css);
+@import url(../blocks/slide-1/__bacteria/_1/slide-1__bacteria_1.css);
+@import url(../blocks/slide-1/__bacteria/_2/slide-1__bacteria_2.css);
+@import url(../blocks/slide-1/__bacteria/_3/slide-1__bacteria_3.css);
+@import url(../blocks/slide-1/__bacteria/_4/slide-1__bacteria_4.css);
+@import url(../blocks/slide-1/__bacteria/_5/slide-1__bacteria_5.css);
+@import url(../blocks/slide-1/__bacteria/_6/slide-1__bacteria_6.css);
+@import url(../blocks/slide-1/__bacteria/_7/slide-1__bacteria_7.css);
+@import url(../blocks/slide-1/__bacteria/_8/slide-1__bacteria_8.css);
+@import url(../blocks/slide-1/__bacteria/_9/slide-1__bacteria_9.css);
 @import url(../blocks/slide-1/__title/slide-1__title.css);
 @import url(../blocks/slide-1/__paragraph/slide-1__paragraph.css);
 @import url(../blocks/slide-1/__btn/slide-1__btn.css);
@@ -24,16 +37,47 @@
 @import url(../blocks/slide-2/slide-2.css);
 @import url(../blocks/slide-2/__title/slide-2__title.css);
 @import url(../blocks/slide-2/__scroll/slide-2__scroll.css);
+@import url(../blocks/slide-2/__spermatozoon/slide-2__spermatozoon.css);
+@import url(../blocks/slide-2/__spermatozoon/_1/slide-2__spermatozoon_1.css);
+@import url(../blocks/slide-2/__spermatozoon/_2/slide-2__spermatozoon_2.css);
+@import url(../blocks/slide-2/__spermatozoon/_3/slide-2__spermatozoon_3.css);
+@import url(../blocks/slide-2/__spermatozoon/_4/slide-2__spermatozoon_4.css);
+@import url(../blocks/slide-2/__spermatozoon/_5/slide-2__spermatozoon_5.css);
 @import url(../blocks/slide-2/__message/slide-2__message.css);
 
 @import url(../blocks/slide-3/slide-3.css);
-@import url(../blocks/slide-3/__title/slide-3__title.css);
-@import url(../blocks/slide-3/__subtitle/slide-3__subtitle.css);
-@import url(../blocks/slide-3/__grid/slide-3__grid.css);
-@import url(../blocks/slide-3/__tip/slide-3__tip.css);
+@import url(../blocks/slide-3/__bottle-container/slide-3__bottle-container.css);
 @import url(../blocks/slide-3/__btn/slide-3__btn.css);
+@import url(../blocks/slide-3/__grid/slide-3__grid.css);
+@import url(../blocks/slide-3/__icon/slide-3__icon.css);
+@import url(../blocks/slide-3/__icon/_calendar/slide-3__icon_calendar.css);
+@import url(../blocks/slide-3/__icon/_dinner/slide-3__icon_dinner.css);
+@import url(../blocks/slide-3/__img/slide-3__img.css);
+@import url(../blocks/slide-3/__subtitle/slide-3__subtitle.css);
+@import url(../blocks/slide-3/__tip/slide-3__tip.css);
+@import url(../blocks/slide-3/__title/slide-3__title.css);
+
+@import url(../blocks/bottle-container/bottle-container.css);
+@import url(../blocks/bottle-img/bottle-img.css);
+
+@import url(../blocks/bubble/bubble.css);
+@import url(../blocks/bubble/_1/bubble_1.css);
+@import url(../blocks/bubble/_2/bubble_2.css);
+@import url(../blocks/bubble/_3/bubble_3.css);
+@import url(../blocks/bubble/_4/bubble_4.css);
+@import url(../blocks/bubble/_5/bubble_5.css);
+@import url(../blocks/bubble/_6/bubble_6.css);
+@import url(../blocks/bubble/_7/bubble_7.css);
+@import url(../blocks/bubble/_8/bubble_8.css);
+@import url(../blocks/bubble/_down/bubble_down.css);
+@import url(../blocks/bubble/_size/bubble_size.css);
+@import url(../blocks/bubble/_size/_l/bubble_size_l.css);
+@import url(../blocks/bubble/_size/_m/bubble_size_m.css);
+@import url(../blocks/bubble/_size/_s/bubble_size_s.css);
+@import url(../blocks/bubble/_up/bubble_up.css);
 
 @import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/__bottle-container/popup__bottle-container.css);
 @import url(../blocks/popup/popup_ditails.css);
 @import url(../blocks/popup/__carousel/popup__carousel.css);
 @import url(../blocks/popup/__closer/popup__closer.css);

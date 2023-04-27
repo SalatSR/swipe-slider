@@ -1,6 +1,6 @@
 .slide-2 {
   background-image: url('../../images/slide-bg_2.png');
-  padding: 132px 91px 0px 67px;
+  padding: 132px 130px 0px 67px;
   position: relative;
 }
 
@@ -9,15 +9,12 @@
   background-color: #fff;
   border-radius: 40px;
   direction: ltr;
-  font-family: 'Gilroy';
-  font-size: 20px;
-  font-weight: 400;
-  height: 450px;
-  line-height: 1.5;
-  padding: 30px 40px 0;
-  width: 737px;
-  top: 235px;
-  left: 120px;
+  height: 444px;
+  width: 774px;
+  top: 240px;
+  left: 119px;
   z-index: 1;
   position: absolute;
+  box-shadow: 20px 20px 94px -45px #000000,
+              -20px -20px 94px -45px #000000;
 }

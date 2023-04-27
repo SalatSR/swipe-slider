@@ -37,3 +37,11 @@
   font-display: swap;
   src: url("./Gilroy-Extrabold.woff") format("woff");
 }
+
+@font-face {
+  font-family: 'Circe';
+  font-style:  normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./Circe-Regular.woff") format("woff");
+}

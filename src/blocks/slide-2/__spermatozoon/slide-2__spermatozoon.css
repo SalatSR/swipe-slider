@@ -1,0 +1,15 @@
+.slide-2__spermatozoon {
+  animation-name: swim;
+  animation-duration: 5s;
+  animation-iteration-count: 6;
+  animation-direction: normal;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  background-image: url('../../../images/spermatozoons/spermatozoons-4.webp');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  position: absolute;
+  width: 1400px;
+  height: 600px;
+}

@@ -1,0 +1,10 @@
+.slide-1__bacteria_7 {
+  animation-name: approximation-second;
+  animation-duration: 10s;
+  animation-timing-function: ease-in-out;
+  background-image: url('../../../../images/bacterias/slide-1--bacteria-7.png');
+  height: 65px;
+  left: 745px;
+  top: 58px;
+  width: 65px;
+}

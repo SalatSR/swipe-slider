@@ -1,0 +1,8 @@
+.slide-3__icon {
+  display: block;
+  position: absolute;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 70px;
+  height: 70px;
+}

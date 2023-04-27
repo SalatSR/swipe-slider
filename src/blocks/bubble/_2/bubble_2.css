@@ -1,0 +1,7 @@
+.bubble_2 {
+  background-image: url('../../../images/bubbles/bubble_2.png');
+  top: 370px;
+  left: 1px;
+  animation-duration: 6s;
+  animation-direction: reverse;
+}

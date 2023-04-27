@@ -4,3 +4,7 @@
   grid-row-start: 2;
   grid-row-end: 3;
 }
+
+.slide-3__btn:before {
+  background-image: url('../../../images/btn-img--ditails.png');
+}
