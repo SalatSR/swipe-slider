@@ -3,6 +3,7 @@ import {
   headerLinkHome,
   sliderLine,
   slideBtnNext,
+  spermatozoonsList,
   slideBtnDetail,
   arrowNext,
   arrowPrev,
@@ -16,17 +17,33 @@ import Popup from '../components/Popup';
 function cL(x) {
   console.log(x);
 }
-/** НАЧАЛО Основное движение слайдера */
+/** НАЧАЛО Слайдер презентации */
 let offset = 0;
 let clientTouchFirstX = null;
 let clientTouchFirstY = null;
 
+/** Включаем анимацию 2-го слайда */
+function startSwimAnimation(offset) {
+  if ((offset * -1) === 1024) {
+    spermatozoonsList.forEach(function (spermatozoon) {
+      spermatozoon.classList.add('animation-swim');
+    })
+  } else {
+    spermatozoonsList.forEach(function (spermatozoon) {
+      spermatozoon.classList.remove('animation-swim');
+    })
+  }
+};
+
 function moveToFirst() {
   sliderLine.style.left = 0 + 'px';
   offset = 0;
+  startSwimAnimation(offset);
 }
 
-function checkExtremePoints() {
+/** проверяем можем мы перейти к следующему слайду или нет */
+function checkExtremePoints(offset) {
+  startSwimAnimation(offset)
   if (offset > 0 || Math.abs(offset) >= 3072) {
     moveToFirst();
   } else {
@@ -36,12 +53,12 @@ function checkExtremePoints() {
 
 function moveRight() {
   offset -= 1024;
-  checkExtremePoints();
+  checkExtremePoints(offset);
 }
 
 function moveLeft() {
   offset += 1024;
-  checkExtremePoints();
+  checkExtremePoints(offset);
 }
 
 function handleTouchStart(event) {
@@ -74,7 +91,7 @@ function handleTouchMove(event) {
   clientTouchFirstX = null;
   clientTouchMoveX = null;
 }
-/** КОНЕЦ Основное движение слайдера */
+/** КОНЕЦ  Слайдер презентации  */
 
 /** НАЧАЛО Попап */
 
@@ -109,7 +126,7 @@ function setSectionIndex(sectionIndex) {
 
 function moveNext() {
   reset();
-  
+
   cL({ 'next-0': sectionIndex })
   cL({ 'sectionsList.length-0': sectionsList.length })
   if (sectionIndex < (sectionsList.length - 1)) {
@@ -132,8 +149,8 @@ function movePrev() {
   setSectionIndex(sectionIndex);
 };
 
-[...dots].forEach(function(li, i){
-  li.addEventListener('click', function(event){
+[...dots].forEach(function (li, i) {
+  li.addEventListener('click', function (event) {
     if (sectionIndex < i) {
       moveNext();
       sectionIndex = i;
@@ -147,7 +164,7 @@ function movePrev() {
 /** КОНЕЦ Слайдер на 3-м слайде */
 
 document.addEventListener('touchstart', handleTouchStart, true);
-document.addEventListener('touchmove', handleTouchMove, true);
+document.addEventListener('touchmove', handleTouchMove, offset = 0, true);
 
 /** Первый  слайд */
 headerLinkHome.addEventListener('click', moveToFirst);

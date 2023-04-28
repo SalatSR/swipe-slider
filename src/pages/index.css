@@ -3,6 +3,7 @@
 
 @import url(./animation.css);
 
+@import url(../blocks/mixins/animation-swim.css);
 @import url(../blocks/mixins/bold.css);
 
 @import url(../blocks/button/button.css);

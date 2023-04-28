@@ -3,6 +3,7 @@ const slide2Message = 'Lorem ipsum dolor, sit amet consectetur adipisicing elit.
 const headerLinkHome = document.querySelector('.header__btn_home');
 const sliderLine = document.querySelector('.slider__line');
 const slideBtnNext = document.querySelector('.slide-1__btn');
+const spermatozoonsList = document.querySelectorAll('.slide-2__spermatozoon');
 const slideBtnDetail = document.querySelector('.slide-3__btn');
 
 /** для слайдера на 3-м слайде */
@@ -18,6 +19,7 @@ export {
   headerLinkHome,
   sliderLine,
   slideBtnNext,
+  spermatozoonsList,
   slideBtnDetail,
   arrowNext,
   arrowPrev,
